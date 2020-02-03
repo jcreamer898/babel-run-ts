@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Easily run TS scripts with Babel",
   "main": "src/index.ts",
-  "keywords": ["babel", "typescript", "cli", "run"],
+  "keywords": [
+    "babel",
+    "typescript",
+    "cli",
+    "run"
+  ],
   "bin": "./bin/run.sh",
   "author": "Jonathan Creamer",
   "license": "ISC",
@@ -12,6 +17,7 @@
     "@babel/core": "^7.8.4",
     "@babel/node": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
-    "@babel/preset-typescript": "^7.8.3"
+    "@babel/preset-typescript": "^7.8.3",
+    "babel-node-ts": "^1.0.3"
   }
 }
